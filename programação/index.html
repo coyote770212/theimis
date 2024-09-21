@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        img {
+            width: 300px;
+            height: 300px;
+
+        }
+        #cabare {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+
+        }
+        #theimis {
+            position: absolute;
+            width: 300px;
+            height: 300px;
+        }
+        #cabare:hover   {
+            opacity: 0;
+            transition: .5s;
+        }
+
+        #msg {
+            position: absolute;
+            top: 0;
+        }
+    </style>
+</head>
+<body>
+        <div id="msg">
+            <h1>Cabare do Theimis</h1>
+        </div>
+        <div id="theimis">   
+            <img src="CABERE.jpg" alt="">
+        </div>
+        <div id="cabare">
+            <img src="Captura de tela 2024-09-21 154559.png" alt="">
+        </div>
+
+        <audio src="gemido-whatsapp.mp3" preload="auto" controls loop style="position: absolute; bottom: 0;"></audio>
+</body>
+</html>
